@@ -1,7 +1,7 @@
-import 'package:chucknorrisjokes/domain/entities/category_entity.dart';
+import 'package:chucknorrisjokes/infraestructure/models/category_model.dart';
 
-class JokeEntity { 
-  final CategoryEntity categories; 
+class JokeModel { 
+  final CategoryModel categories; 
   final DateTime createdAt; 
   final String iconUrl;
   final String id;
@@ -9,7 +9,7 @@ class JokeEntity {
   final String url;
   final String value;
 
-  const JokeEntity({
+  const JokeModel({
     required this.categories,
     required this.createdAt,
     required this.iconUrl,
