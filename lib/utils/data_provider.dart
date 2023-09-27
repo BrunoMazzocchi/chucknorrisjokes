@@ -14,9 +14,9 @@ class DataProvider extends StatelessWidget {
       providers: [
         Provider(
           create: (_) => ApiClient(baseUrl: baseUrl),
-          child: child,
         ), 
       ],
+      child: child,
     );
   }
 }

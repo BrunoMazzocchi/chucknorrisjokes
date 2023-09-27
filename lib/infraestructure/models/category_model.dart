@@ -1,5 +1,5 @@
 class CategoryModel { 
-  final List<String> listCategories;
+  final List<String>? listCategories;
 
   CategoryModel({
     required this.listCategories
